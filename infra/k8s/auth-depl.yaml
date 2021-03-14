@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: auth-depl
 spec:
   replicas: 1
   selector:
@@ -15,7 +15,6 @@ spec:
       containers:
         - name: auth
           image: qmkiwi/auth
-          imagePullPolicy: Always
 
 ---
 apiVersion: v1
