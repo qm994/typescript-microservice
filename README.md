@@ -12,3 +12,12 @@ The propject has been hold off since I joined athenahealth as a new employee rec
 # Services
 
 ![Screen Shot 2021-06-18 at 11 45 56 AM](https://user-images.githubusercontent.com/40004335/122586549-d410b280-d02a-11eb-992b-044c7de304c4.png)
+
+# Events
+
+![Screen Shot 2021-06-18 at 12 06 30 PM](https://user-images.githubusercontent.com/40004335/122589045-cb6dab80-d02d-11eb-9a66-9a0ba9ed8dc0.png)
+
+
+# Application Structure
+
+![Screen Shot 2021-06-18 at 12 07 14 PM](https://user-images.githubusercontent.com/40004335/122589095-d7596d80-d02d-11eb-9910-d06828e1d295.png)
