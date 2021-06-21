@@ -6,10 +6,9 @@ const app = express();
 app.use(json());
 
 app.get('/api/users/currentuser', (req, res) => {
-    res.send("Hi there!")
+    res.send("This is the endpoint /api/users/currentuser!!!!!")
 })
 
 app.listen(3000, () => {
-    console.log('auth listening on port 3000')
+    console.log('auth listening on port 3000!!!!!!!!!')
 });
-

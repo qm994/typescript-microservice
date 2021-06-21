@@ -15,14 +15,12 @@ spec:
       containers:
         - name: auth
           image: qmkiwi/auth
-
 ---
 apiVersion: v1
 kind: Service
 metadata:
   name: auth-srv
 spec:
-  type: ClusterIP
   selector:
     app: auth
   ports:
@@ -30,4 +28,3 @@ spec:
       protocol: TCP
       port: 3000
       targetPort: 3000
-
