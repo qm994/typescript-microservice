@@ -1,7 +1,11 @@
 # typescript-microservice
 This is Typescript application built with docker, kubernetes etc and deployed on AWS
 
-The propject has been hold off since I joined athenahealth as a new employee recently and planning to get back to it in 2021 August
+The propject has been hold off since I joined athenahealth as a new employee recently and planning to get back to it in 2021 August.
+
+## Update
+
+I restart to work on this project on 06/20/2021 and I am planning to finish and deploy to production before 10/01/2021 considering I am having a full time job now.
 
 
 # Resources Backend
