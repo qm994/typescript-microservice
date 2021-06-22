@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: qmkiwi/auth
+          image: us.gcr.io/ticketing-dev-317612/auth
 ---
 apiVersion: v1
 kind: Service
