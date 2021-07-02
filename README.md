@@ -25,3 +25,11 @@ I restart to work on this project on 06/20/2021 and I am planning to finish and 
 # Application Structure
 
 ![Screen Shot 2021-06-18 at 12 07 14 PM](https://user-images.githubusercontent.com/40004335/122589095-d7596d80-d02d-11eb-9910-d06828e1d295.png)
+
+# How the Error Handler middleware handles the different error?
+
+The ultimate goal is build different customized error classes in `src/errors` folder and each of them will return a same error response which is an object with `errors` key with array of values and each value will have fileds `message` and optional `field`:
+
+## How error-handler works?
+
+Taking `src/auth/signup` as an example: If the request has a validation error, it will throw a `RequestValidationError` to `error-handler.ts`. If the error-handler recognizes its a `RequestValidationError` then it will utilize error's `serializeErrors` method to serilize errors to the same format response and send. This is same for `DatabaseConnectionError`.
