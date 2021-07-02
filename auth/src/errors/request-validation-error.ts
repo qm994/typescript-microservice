@@ -3,7 +3,7 @@ import { CustomError } from "./custom-error";
 export class RequestValidationError extends CustomError {
   statusCode = 400;
   constructor(public errors: ValidationError[]) {
-    super();
+    super("Logging purpose: Error comes from request validation!");
     Object.setPrototypeOf(this, RequestValidationError.prototype);
   }
 
